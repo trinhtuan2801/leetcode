@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "js": "node choose.js js",
+    "js:hard": "node choose.js js/hard",
     "ts": "node choose.js ts",
     "dev": "ts-node-dev --respawn ts/135-candy.ts --inspect"
   },
