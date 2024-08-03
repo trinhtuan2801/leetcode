@@ -22,7 +22,6 @@ function candy(ratings) {
     }
   }
   peaks.push([L, R]);
-//   console.log(peaks, sharedValeys);
   const sigma = (start, end) => {
     if (end === 0) return 0;
     return ((end + start) * (end - start + 1)) / 2;

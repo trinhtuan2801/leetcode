@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node choose.js scripts",
-    "dev": "ts-node-dev --respawn scripts/135-candy.ts --inspect",
-    "chrome": "nodemon scripts/135-candy.js"
+    "js": "node choose.js js",
+    "ts": "node choose.js ts",
+    "dev": "ts-node-dev --respawn ts/135-candy.ts --inspect"
   },
   "keywords": [],
   "author": "",
