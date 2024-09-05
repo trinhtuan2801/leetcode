@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "js": "node choose.js js",
+    "js:easy": "node choose.js js/easy",
+    "js:medium": "node choose.js js/medium",
     "js:hard": "node choose.js js/hard",
     "ts": "node choose.js ts",
     "dev": "ts-node-dev --respawn ts/135-candy.ts --inspect"
